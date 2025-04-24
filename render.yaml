@@ -3,7 +3,7 @@ services:
     name: training-management-server
     env: node
     buildCommand: npm install && npm run build
-    startCommand: node ./dist/index.js
+    startCommand: node ./dist/src/index.js
     envVars:
       - key: NODE_ENV
         value: production
