@@ -39,6 +39,10 @@ temp/
 *.sqlite3
 *.db
 
+# Data files
+src/data/
+*.csv
+
 # Misc
 .cache/
 .temp/
